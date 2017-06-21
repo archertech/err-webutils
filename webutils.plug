@@ -1,0 +1,9 @@
+[Core]
+Name = WebUtils
+Module = webutils
+
+[Python]
+Version = 2+
+
+[Documentation]
+Description = This plugin to is to perform searches on google on your behalf or check exchange rates

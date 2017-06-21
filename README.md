@@ -4,19 +4,26 @@ Err plugin
 Requirements
 ---
 ```
-Google-Search-API
+google-api-python-client
+CurrencyConverter
 ```
 
 Installation
 ---
 ```
-!repos install https://github.com/jnhmcknight/err-google.git
+!repos install https://github.com/jnhmcknight/err-webutils.git
 ```
 
 Usage
 ---
-Simple example usage
+Search via Google
 
 ```
 !g <search terms>
+!google <search terms>
+```
+
+Get exchange rate, as per European Central Bank rates
+```
+!xrate <amount> <source_currency> <destination_currency>
 ```
